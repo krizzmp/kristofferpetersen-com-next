@@ -1,0 +1,47 @@
+:root{
+  --text-color: var(--mainColor);
+
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  /*background: var(--mainColor);*/
+  /*background: #efefef;*/
+  /*border-bottom: 1px solid rgba(0, 0, 0, 0.3);*/
+  /*box-shadow: 0 1px 0 0 #fff;*/
+  height: 33px;
+}
+.header svg {
+  color: var(--text-color);
+  /*margin-top: 1px;*/
+  /*margin-left: 1px;*/
+}
+.header > svg {
+  /*color: #fbfbfb;*/
+  /*fill: #fbfbfb;*/
+  fill: var(--text-color);
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.name {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "Helvetica Neue", sans-serif;
+  margin-left: 8px;
+  color: var(--text-color);
+  /*font-variant-caps: all-small-caps;*/
+  text-transform: uppercase;
+}
+.icon {
+  margin: 0 8px;
+  font-size: 20px;
+}
+* {
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+  margin: 0;
+  padding: 0;
+}

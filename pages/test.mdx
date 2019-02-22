@@ -1,0 +1,44 @@
+# What is Event Sourcing
+
+Event Sourcing is a system where the source of truth is events. In other words
+it is possible to reconstruct the entire application state from a table
+containing all the changes to the state. This table is called an event store.
+
+# Do you need microservices?
+
+Not really but it works nicely together.
+
+# Do you need CQRS?
+
+Again no, but it makes sense that the service that writes events to the
+event store is different from the service that materialises a view that can be
+queried.
+
+# What language do I want to write services in?
+
+Since I want to do functional programming there are some languages that are
+better than others for functional programming.
+
+## Reasonml
+
+Reasonml has great support for functional programming, while having an OOP like
+syntax. I haven’t seen any examples of it being used to create a web service
+so the ecosystem might not be well served for that purpose but I will have to
+look into that further.
+
+## Node
+
+Node is pretty good for microservices, and the tooling for serverless functions
+is very good.
+
+Both javascript and typescript can do some functional programming. There are
+features that are missing compared to languages like Haskell and reasonml. For
+instance js & ts does not have pattern matching or typeclasses.
+
+# How to deal with errors and response-codes
+
+When doing Event Sourcing there is an asynchronous nature to most commands and 
+the web service might have to wait for another event to be dispatched from 
+another service before knowing whether a command has succeeded. Finding a good 
+way to manage that in the context of synchronous http call can be tricky and i 
+don't yet know how to do that. 

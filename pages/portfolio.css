@@ -1,0 +1,106 @@
+.portfolio {
+  font-family: "Helvetica Neue", sans-serif;
+  /*padding: 8px 64px;*/
+  font-size: 112.5%;
+  max-width: 33rem;
+  line-height: 1.45rem;
+  margin: 0 auto 1.45rem;
+}
+.portfolio > h1 {
+  margin: 32px 0 16px;
+  font-size: 2em;
+  line-height: 1em;
+  /*margin: 0;*/
+  padding: 0;
+  /*background: var(--mainColor);*/
+  /*color: #fff;*/
+  text-transform: uppercase;
+}
+article {
+  padding: 8px 0 4px;
+  /*border-bottom: 1px solid #cfcfcf;*/
+  /*border-top: 1px solid #fff;*/
+}
+article:last-of-type {
+  border-bottom: none;
+}
+article:first-of-type {
+  border-top: none;
+}
+h2.title {
+  padding: 0;
+  /*background: var(--mainColor);*/
+  color: var(--mainColor);
+  text-transform: uppercase;
+  max-width: 13em;
+  font-size: 3.796875em;
+  line-height: 4.35rem;
+  font-family: "korolev", sans-serif;
+  font-weight: 500;
+  margin: 1.45rem 0 1.45rem -12.5%;
+}
+.date {
+  font-size: 1em;
+  /*background: var(--mainColor);*/
+  font-family: "ff-meta-serif-web-pro", serif;
+  color: var(--mainColor);
+  line-height: 1.45rem;
+  margin-bottom: 1.45rem;
+  margin-top: 0;
+}
+.content {
+}
+.content h1 {
+  font-family: "korolev", sans-serif;
+  font-weight: 500;
+  font-size: 1.6875rem;
+  line-height: 2.175rem;
+  margin-top: 0;
+  margin-bottom: 0.425rem;
+}
+.content h2 {
+  font-family: "korolev", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 2.175rem;
+  margin-top: 0;
+  margin-bottom: 0.425rem;
+}
+.content p {
+  display: block;
+  color: rgba(14, 30, 37, 0.8);
+  font-size: 1em;
+  font-family: "ff-meta-serif-web-pro", serif;
+  color: #333;
+  line-height: 1.45rem;
+  margin: 0 0 0rem;
+  text-indent: 2rem;
+}
+@media screen and (max-width: 48em) {
+  .content {
+    font-size: 112.5%;
+  }
+  .portfolio {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 42em) {
+  .portfolio {
+    font-size: 100%;
+  }
+  h2.title {
+    margin: 1.45rem 0 1.45rem -2rem;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 38em) {
+  .portfolio {
+    font-size: 100%;
+  }
+  h2.title {
+    margin: 1.45rem 0 1.45rem 0rem;
+    font-size: 2.7rem;
+  }
+}
