@@ -40,7 +40,7 @@ h2.title {
   font-family: Roboto, sans-serif;
   font-style: normal;
   letter-spacing: -0.5px;
-  font-size: 24px;
+  font-size: 34px;
   line-height: 1.15;
   margin-top: 22px;
   font-weight: 600;
@@ -53,20 +53,19 @@ h2.title {
   margin-top: 13px;
   font-weight: 600;
   margin-bottom: 4px;
-  font-size: 20px;
+  font-size: 28px;
+  /*text-align: center;*/
   line-height: 1.22;
   letter-spacing: -0.3px;
   color: rgba(0, 0, 0, 0.84);
 }
 .content p {
-  --x-height-multiplier: 0.375;
-  --baseline-multiplier: 0.17;
   font-weight: 400;
   font-style: normal;
-  font-size: 22px;
-  line-height: 1.15;
-  margin-bottom: 0.5em;
+  font-size: 30px;
+  text-indent: 59px;
+  line-height: 1.6;
   color: rgba(14, 30, 37, 0.87);
-  letter-spacing: -0.8px;
-  font-family: "Yrsa", serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  text-align: justify;
+  font-family: "IBM Plex Serif", sans-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }

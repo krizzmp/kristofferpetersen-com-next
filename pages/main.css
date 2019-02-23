@@ -4,3 +4,7 @@ body{
 :root {
     --mainColor: #d1345b;
 }
+button{
+    padding: 4px;
+    margin: 4px;
+}
