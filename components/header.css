@@ -11,7 +11,7 @@
 .header svg {
   color: var(--text-color);
 }
-.header > svg {
+.header > a {
   fill: var(--text-color);
   margin: 24px;
 }
