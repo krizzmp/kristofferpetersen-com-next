@@ -12,9 +12,8 @@ const Index = () => (
       <title>portfolio - kristoffer petersen</title>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </Head>
-    <Header />
+    <Header title={"portfolio"}/>
     <div className={c.portfolio}>
-      <h1>portfolio</h1>
       <article>
         <h2 className={c.title}>{title}</h2>
         <div className={c.date}>{date} by {author}</div>
