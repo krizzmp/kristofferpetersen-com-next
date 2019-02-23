@@ -1,5 +1,6 @@
 {
   "version": 2,
   "name": "kristofferpetersen.com next",
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }],
+  "alias": ["kristofferpetersen.com"]
 }
