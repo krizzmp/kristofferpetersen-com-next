@@ -4,7 +4,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-family: Roboto, sans-serif;
-  max-width: 700px;
+  max-width: 724px;
+  padding-left: 16px;
+  padding-right: 8px;
 }
 
 .portfolio > h1 {
@@ -21,32 +23,27 @@ h2.title {
   font-size: 42px;
   color: rgba(0, 0, 0, 0.84);
   line-height: 32px;
-  font-family: "Crimson Text", serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Crimson Text", serif, Georgia, Cambria, "Times New Roman", Times,
+    serif;
 }
 .date {
   font-family: Roboto, sans-serif;
-  /*margin-bottom: 1.45rem;*/
   margin-top: 16px;
   color: rgba(0, 0, 0, 0.54);
   font-size: 16px;
   font-weight: 300;
   line-height: 32px;
   margin-bottom: 16px;
-
 }
 .content h1 {
   font-weight: 400;
   font-size: 22px;
   line-height: 32px;
-  /*letter-spacing: -0.5px;*/
-
 }
 .content h2 {
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
-  /*letter-spacing: -0.5px;*/
-
 }
 .content p {
   font-family: "Crimson Text", sans-serif, Georgia, Cambria, "Times New Roman",
@@ -56,7 +53,4 @@ h2.title {
   margin-bottom: 32px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.83);
-  /*letter-spacing: -0.5px;*/
-  /*text-align: justify;*/
-
 }
