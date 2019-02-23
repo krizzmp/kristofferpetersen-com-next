@@ -1,48 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Yrsa:300,400");
 .portfolio {
-  font-family: "Helvetica Neue", sans-serif;
-  /*padding: 8px 64px;*/
-  font-size: 112.5%;
-  max-width: 33rem;
-  line-height: 1.45rem;
-  margin: 0 auto 1.45rem;
+  margin: 0 auto;
+  max-width: 740px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
+
 .portfolio > h1 {
   margin: 32px 0 16px;
-  font-size: 2em;
+  font-size: 1.4em;
   line-height: 1em;
-  /*margin: 0;*/
   padding: 0;
-  /*background: var(--mainColor);*/
-  /*color: #fff;*/
-  text-transform: uppercase;
-}
-article {
-  padding: 8px 0 4px;
-  /*border-bottom: 1px solid #cfcfcf;*/
-  /*border-top: 1px solid #fff;*/
-}
-article:last-of-type {
-  border-bottom: none;
-}
-article:first-of-type {
-  border-top: none;
+  /*text-transform: uppercase;*/
+  font-family: "Yrsa", serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 h2.title {
   padding: 0;
-  /*background: var(--mainColor);*/
   color: var(--mainColor);
   text-transform: uppercase;
   max-width: 13em;
-  font-size: 3.796875em;
-  line-height: 4.35rem;
+  font-size: 2em;
+  line-height: 2.35rem;
   font-family: "korolev", sans-serif;
   font-weight: 500;
-  margin: 1.45rem 0 1.45rem -12.5%;
+  margin: 1.45rem 0 0.45rem -4%;
 }
 .date {
-  font-size: 1em;
-  /*background: var(--mainColor);*/
-  font-family: "ff-meta-serif-web-pro", serif;
+  font-size: 1.1em;
+  font-family: "Yrsa", serif;
   color: var(--mainColor);
   line-height: 1.45rem;
   margin-bottom: 1.45rem;
@@ -51,56 +38,40 @@ h2.title {
 .content {
 }
 .content h1 {
-  font-family: "korolev", sans-serif;
-  font-weight: 500;
-  font-size: 1.6875rem;
-  line-height: 2.175rem;
-  margin-top: 0;
-  margin-bottom: 0.425rem;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  letter-spacing: 0;
+  font-size: 30px;
+  line-height: 1.15;
+  margin-top: 23px;
+  font-weight: 400;
+  margin-bottom: 8px;
 }
 .content h2 {
-  font-family: "korolev", sans-serif;
-  font-weight: 500;
-  font-size: 1.3rem;
-  line-height: 2.175rem;
-  margin-top: 0;
-  margin-bottom: 0.425rem;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.15;
+  margin-top: 13px;
+  font-weight: 400;
+  margin-bottom: 4px;
 }
 .content p {
-  display: block;
-  color: rgba(14, 30, 37, 0.8);
-  font-size: 1em;
-  font-family: "ff-meta-serif-web-pro", serif;
-  color: #333;
-  line-height: 1.45rem;
-  margin: 0 0 0rem;
-  text-indent: 2rem;
-}
-@media screen and (max-width: 48em) {
-  .content {
-    font-size: 112.5%;
-  }
-  .portfolio {
-    font-size: 100%;
-  }
+  --x-height-multiplier: 0.375;
+  --baseline-multiplier: 0.17;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.58;
+  margin-bottom: 0.5em;
+  color: rgba(14, 30, 37, 0.87);
+  letter-spacing: -.02em;
+  font-family: "Yrsa", serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 1199px) {
   .portfolio {
-    font-size: 100%;
-  }
-  h2.title {
-    margin: 1.45rem 0 1.45rem -2rem;
-    font-size: 3rem;
-  }
-}
-
-@media screen and (max-width: 38em) {
-  .portfolio {
-    font-size: 100%;
-  }
-  h2.title {
-    margin: 1.45rem 0 1.45rem 0rem;
-    font-size: 2.7rem;
+    max-width: 740px;
+    margin: 0 auto;
   }
 }

@@ -1,3 +1,9 @@
+export const meta = {
+  author: "Kristoffer Petersen",
+  title: "Considerations",
+  date: "Feb 19, 2019"
+};
+
 # What is Event Sourcing
 
 Event Sourcing is a system where the source of truth is events. In other words
@@ -37,8 +43,8 @@ instance js & ts does not have pattern matching or typeclasses.
 
 # How to deal with errors and response-codes
 
-When doing Event Sourcing there is an asynchronous nature to most commands and 
-the web service might have to wait for another event to be dispatched from 
-another service before knowing whether a command has succeeded. Finding a good 
-way to manage that in the context of synchronous http call can be tricky and i 
-don't yet know how to do that. 
+When doing Event Sourcing there is an asynchronous nature to most commands and
+the web service might have to wait for another event to be dispatched from
+another service before knowing whether a command has succeeded. Finding a good
+way to manage that in the context of synchronous http call can be tricky and i
+don't yet know how to do that.
