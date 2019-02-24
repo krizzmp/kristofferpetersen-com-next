@@ -1,24 +1,39 @@
-body {
-  /*background: #EFEFEF;*/
-}
 :root {
   --mainColor: #d1345b;
 }
-button {
-  padding: 4px;
-  margin: 4px;
+.t{
+  font-family: "Crimson Text", sans-serif, Georgia, Cambria, "Times New Roman",
+  Times, serif;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.83);
+  letter-spacing: -0.7px;
 }
-.card {
-  box-shadow: 0 0 32px -4px rgba(0, 0, 0, 0.57);
-  /*padding: 32px;*/
-  margin: 32px;
-  display: inline-block;
-  font-size: 24px;
-  border-radius: 20px;
-  background: var(--mainColor);
-  width: 200px;
-  height: 100px;
-  line-height: 100px;
+.t h2 a{
+  color: var(--mainColor);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  text-indent: 0;
   text-align: center;
-  color: #ffffff;
+  font-size: 22px;
+  line-height: 32px;
+  margin-top: 32px;
 }
+.grid{
+  margin: 32px auto 0;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 32px;
+  max-width: 800px;
+}
+
+/*body{*/
+/*  background: repeating-linear-gradient(#ffffff00 0px,#fff0 31px,#d3d3d3 32px);*/
+/*}*/
+/*html{*/
+/*  background: repeating-linear-gradient(to left, #ffffff00 0px,#fff0 31px,#d3d3d3 32px);*/
+/*}*/
