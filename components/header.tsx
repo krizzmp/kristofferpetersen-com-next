@@ -11,9 +11,8 @@ export function Header({ title = "kristoffer petersen" }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Link href="/">
-        <a>
+        <a aria-label="go home">
           <svg
-            id="Layer_1"
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
             y="0px"
@@ -41,12 +40,12 @@ export function Header({ title = "kristoffer petersen" }) {
       <div className={c.name}>{title}</div>
       <div className={c.content}>
         <div className={c.icon}>
-          <a href={"https://github.com/krizzmp"}>
+          <a href={"https://github.com/krizzmp"} aria-label="my github">
             <FaGithub>github</FaGithub>
           </a>
         </div>
         <div className={c.icon}>
-          <a href={"https://twitter.com/krizzmp"}>
+          <a href={"https://twitter.com/krizzmp"} aria-label="my twitter">
             <FaTwitter>twitter</FaTwitter>
           </a>
         </div>
