@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Link from "next/link";
 import { Header } from "../components/header";
 // @ts-ignore
@@ -14,9 +13,7 @@ function Grid({ children }: any) {
 }
 const Index = () => (
   <div>
-    <Head>
-      <title>kristoffer petersen</title>
-    </Head>
+
     <Header />
 
     <Grid maxWidth={700} gutter={32} columnCout={3}>

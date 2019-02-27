@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { Header } from "../components/header";
 // @ts-ignore
 import c from "./portfolio.css";
@@ -10,10 +9,6 @@ const { date, author, title } = meta;
 function Index() {
   return (
     <div>
-      <Head>
-        <title>portfolio - kristoffer petersen</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
       <Header title={"portfolio"} />
       <div className={c.portfolio}>
         <article>

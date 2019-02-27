@@ -4,11 +4,11 @@
 .t{
   font-family: "Crimson Text", sans-serif, Georgia, Cambria, "Times New Roman",
   Times, serif;
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 17px;
+  line-height: 24px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.83);
-  letter-spacing: -0.7px;
+  /*letter-spacing: -0.7px;*/
 }
 .t h2 a{
   color: var(--mainColor);
@@ -33,6 +33,12 @@
 
 /*body{*/
 /*  background: repeating-linear-gradient(#ffffff00 0px,#fff0 31px,#d3d3d3 32px);*/
+/*  !*background: repeating-linear-gradient(*!*/
+/*  !*        #fff0 0px,*!*/
+/*  !*        #fff0 7px,#d3d3d3 8px,#fff0 9px,*!*/
+/*  !*        #fff0 15px,#d3d3d3 16px,#fff0 17px,*!*/
+/*  !*        #fff0 23px,#d3d3d3 24px,#fff0 25px,*!*/
+/*  !*        #fff0 31px, #707070 32px);*!*/
 /*}*/
 /*html{*/
 /*  background: repeating-linear-gradient(to left, #ffffff00 0px,#fff0 31px,#d3d3d3 32px);*/

@@ -2,9 +2,14 @@
 import c from "./header.css";
 import { FaGithub, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
+import Head from "next-server/head";
 export function Header({ title = "kristoffer petersen" }) {
   return (
     <div className={c.header}>
+      <Head>
+        <title>{title}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <Link href="/">
         <a>
           <svg
