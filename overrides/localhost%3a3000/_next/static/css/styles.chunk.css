@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:300,400,500|Roboto:200,300,400,500,600,700);
+:root {
+  --text-color: var(--mainColor);
+}
+._2e5GNEe4huVVm778kl1P8q {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+._2e5GNEe4huVVm778kl1P8q svg {
+  color: var(--text-color);
+}
+._2e5GNEe4huVVm778kl1P8q > a {
+  fill: var(--text-color);
+  margin: 24px;
+}
+._1zgNrJ5qIU4bpcsd34uiHi {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
+  width: 108px;
+}
+._1ji2YHyGfpE8m0H2DJKuUG {
+  font-size: 21px;
+  color: rgba(37, 18, 30, 0.87);
+  font-family: "Yrsa", serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  /*font-family: "korolev", sans-serif;*/
+}
+._1fdb6yi2LRXF7BlWG_gg2z {
+  font-size: 20px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+._2_T5A4coqpkodGo36BMVf1 {
+  margin: 0 auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: Roboto, sans-serif;
+  max-width: 724px;
+  padding-left: 16px;
+  padding-right: 8px;
+}
+
+._2_T5A4coqpkodGo36BMVf1 > h1 {
+  margin: 32px 0 16px;
+  font-size: 1.4em;
+  line-height: 1em;
+  padding: 0;
+  font-family: "Yrsa", serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+h2._21-2eeFFtFww9tzRs4tYjy {
+  margin-top: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  font-size: 42px;
+  color: rgba(0, 0, 0, 0.84);
+  line-height: 32px;
+  font-family: "Crimson Text", serif, Georgia, Cambria, "Times New Roman", Times,
+    serif;
+}
+._3F0Uda9aGrmpcbrmTjpvGj {
+  font-family: Roboto, sans-serif;
+  margin-top: 16px;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+._13fng3kf7I6S6Ze0tP6oXP h1 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+}
+._13fng3kf7I6S6Ze0tP6oXP h2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+._13fng3kf7I6S6Ze0tP6oXP p {
+  font-family: "Crimson Text", sans-serif, Georgia, Cambria, "Times New Roman",
+    Times, serif;
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 32px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.83);
+}
+
+body {
+  /*background: #EFEFEF;*/
+}
+:root {
+  --mainColor: #d1345b;
+}
+button {
+  padding: 4px;
+  margin: 4px;
+}
+._1cxUe3SL4jTS-X7vzzqO9q {
+  box-shadow: 0 0 32px -4px rgba(0, 0, 0, 0.57);
+  /*padding: 32px;*/
+  margin: 32px;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 20px;
+  background: var(--mainColor);
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+body{
+    background: repeating-linear-gradient(#d3d3d3 0px,#fff 32px);
+    /* background-size: 16px; */
+    /* background-repeat-y: repeat; */
+    background-origin: border-box;
+    margin: 0;
+    /*background-position-y: -3px;*/
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*# sourceMappingURL=styles.chunk.css.map*/
